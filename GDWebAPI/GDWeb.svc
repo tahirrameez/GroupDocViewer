@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GDWebAPI.GDWeb" CodeBehind="GDWeb.svc.cs" %>
