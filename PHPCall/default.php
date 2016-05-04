@@ -19,15 +19,48 @@
  <script type='text/javascript'> $.ui.groupdocsViewer.prototype.useHttpHandlers = false;</script>
 
  <script src="/Scripts/GroupdocsViewer.all.js"></script>
+<body>
+   
+ <h2 style="text-align: center">GroupDocs.Viewer With WCF Service</h2>
 
+
+<table style="width:100%">
+    
+<tr>
+        
+<td style="text-align: center">
+            
+<h4>View document</h4>
+        </td>
+      
+     
+</tr>
+    
+<tr>
+        
+<td style="text-align: center">
+    
+<div id="viewerHtmlDiv"></div>
+        
+</td>
+       
+    
+</tr>
+
+</table>
+
+  
+ 
+
+
+</body>
 
 
 <script>
          // For Html Representation
          $(function () {
              $('#viewerHtmlDiv').groupdocsViewer({
-                 //filePath: 'http://groupdocs.com/images/banner/carousel2/signature.png',
-                 filePath: 'candy.pdf',
+                 filePath: 'myfile.pdf',
                  zoomToFitWidth: true,
                  showFolderBrowser: true,
                  showHeader: true,
@@ -49,7 +82,7 @@
          //For Image Representation
          $(function () {
              $('#viewerImageDiv').groupdocsViewer({
-                 filePath: 'demo.docx',
+                 filePath: 'convert.docx',
                  zoomToFitWidth: true,
                  showFolderBrowser: true,
                  showThumbnails: true,
